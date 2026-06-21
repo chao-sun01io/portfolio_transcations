@@ -1,0 +1,10 @@
+# Private user data — never commit broker statements or generated records
+/input/
+/transactions/
+/output/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.uv/

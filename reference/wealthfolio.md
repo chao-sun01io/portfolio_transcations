@@ -1,0 +1,2 @@
+- Use [wealthfolio.sample.csv] as the sample 
+- Use the like as a reference: https://wealthfolio.app/docs/concepts/activity-types/

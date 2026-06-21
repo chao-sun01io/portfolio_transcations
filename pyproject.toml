@@ -1,0 +1,10 @@
+[project]
+name = "portfolio-transactions"
+version = "0.1.0"
+description = "Convert broker transaction exports into a canonical record and export to other formats (e.g. Wealthfolio)."
+requires-python = ">=3.10"
+dependencies = ["openpyxl"]
+
+# The entry scripts (scripts/ingest.py, scripts/export.py) also declare PEP 723
+# inline dependencies, so they run standalone via `uv run <script>` without this
+# file. This pyproject is for development / packaging convenience.
